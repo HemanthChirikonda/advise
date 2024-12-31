@@ -1,0 +1,121 @@
+:root {
+  font-family: 'Almaden Sans','Helvetica','Arial'!important;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #222;
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+
+body {
+  margin: 0;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  /* background: linear-gradient(0deg, #9d84bd, #f37783); */
+  /* background-color:  #f37783; */
+  background-color: white;
+  height: 70px;
+  padding: 5px;
+}
+.logoContainer {
+  width: 30%;
+  align-content: center;
+}
+.header-logo{
+	height: 70px;
+	float: right;
+}
+.consultBtnContainer {
+  width: 30%;
+  align-content: center;
+  margin: auto;
+}
+
+.consultBtn{
+  width: 200px;
+  background: transparent;
+  border-radius: 10px;
+  height: 40px;
+  border: 1px solid #340a6a;
+  color: #340a6a ;
+  font-size: 13px;
+}
+
+.consultBtn:hover{
+  background-color:#340a6a ;
+ color: white ;
+}
+
+.consultBtn-white{
+  width: 200px;
+  border-radius: 10px;
+  height: 40px;
+  background: transparent;
+	color: white ;
+  border: 1px solid white;
+  font-size: 13px;
+}
+.consultBtn-white:hover{
+  border: 1px solid #340a6a;
+  background-color:#340a6a ;
+	color: white ;
+}
+
+
+.consultBtnOutline{
+	width: 200px;
+	background: #340a6a;
+	border-radius: 10px;
+	height: 40px;
+	border: 1px solid #340a6a;
+	color: white ;
+	font-size: 13px;
+	margin: 10px 10px;
+}
+
+.consultBtnOutline:hover{
+	background: transparent;
+	color: white ;
+  border: 1px solid white;
+}
+
+nav {
+  width: 40%;
+  display: flex;
+  justify-content:  center;
+}
+
+header a {
+  /* color: #fff; */
+  color: black;
+  padding: 0.75rem;
+  text-decoration: none;
+  align-items: center;
+  align-content: center;
+  font-size: 15px;
+}
+
+/* header a.active {
+  background-color: #9d84bd;
+} */
+
+header a:hover {
+  /* background-color: #0008; */
+ color:  #f37783;
+}

@@ -1,0 +1,25 @@
+.section-about-1{
+    height: 60vh;
+    position: relative;
+    /* font-family: Montserrat, sans-serif !important; */
+}
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+}
+.inner-section-warp{
+    background-color: rgb(31, 41, 90);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.img-warp{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,23 @@
+.text-service-div{
+    
+    h2{
+        margin-bottom: 20px;
+    }
+    h4{
+        margin-bottom: 20px;
+    }
+    p{
+        margin-bottom: 20px;
+    }
+}
+
+.service-img-warp {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+
+  .service-hero-inner-div{
+    background-color: gray;
+ }

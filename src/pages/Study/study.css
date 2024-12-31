@@ -1,0 +1,95 @@
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+}
+p {
+  font-size: 20px;
+}
+
+.study-img-warp {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  /* background-color: transparent; */
+}
+
+.text-study-container {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  z-index: 3;
+  h1 {
+    letter-spacing: 3px;
+    font-size: 2.5rem;
+    line-height: 80px;
+  }
+  p {
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin: 5px;
+  }
+  button {
+    margin-top: 30px;
+  }
+}
+
+.study-section-3 {
+  h1 {
+    font-size: 2.5rem;
+  }
+  button {
+    max-height: 70px;
+  }
+}
+
+.animation-grow {
+  animation-name: animation-grow;
+  animation-duration: 1s;
+  transition: all 0.3s ease;
+}
+.animation-grow:hover {
+  animation-play-state: running;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+@keyframes animation-grow {
+  0% {
+    /* transform: scale(0.95); */
+    opacity: 0.9;
+    color: white;
+  }
+
+  50% {
+    /* transform: scale(1); */
+    opacity: 1;
+    color: black;
+  }
+  100% {
+    /* transform: scale(0.95); */
+    opacity: 0.9;
+    color: white;
+  }
+}
+
+.study-section-4 {
+  background-color: #eaa1a862;
+  justify-content: center;
+}
+
+.text-icon-container {
+  font-size: 25px;
+  font-weight: bold;
+  align-items: center;
+  /* color: black; */
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+  min-height: 100px;
+  /* background-color: rgba(253, 223, 177, 0.941); */
+  /* background-color: antiquewhite; */
+  background-color: rgb(15, 15, 88);
+
+  filter: drop-shadow(0 0 0.1rem black);
+
+}

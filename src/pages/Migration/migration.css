@@ -1,0 +1,15 @@
+.migration-section-4{
+    background-color: #eaa1a862;
+    justify-content: center;
+}
+
+.migration-img-warp {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+
+ .migration-hero-inner-div{
+    background-color:darkolivegreen;
+ }

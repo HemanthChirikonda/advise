@@ -1,0 +1,29 @@
+.footer {
+  /* background-color: rgb(244, 213, 173); */
+  /* background: linear-gradient(180deg, #9d84bd, #f37783); */
+     background: linear-gradient(0deg, #070707, #5c5c5c);
+  color: white;
+  /* font-family: "linotype-didot-headline", serif; */
+}
+
+.follows span a {
+  text-decoration: none;
+
+}
+
+.follows span {
+  margin-right: 15px;
+ 
+}
+
+.link__list .link__item {
+  background: transparent;
+
+}
+
+.link__list a {
+  text-decoration: none;
+  color: #0a2b1e;
+  font-weight: 500;
+  color: white;
+}

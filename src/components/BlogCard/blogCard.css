@@ -1,0 +1,32 @@
+.blog-card-img-div {
+  /* height: 50%; */
+  overflow: hidden;
+  min-height: 300px;
+}
+.blog-card-text-div {
+  height: 50%;
+  min-height: 300px;
+  align-content: center;
+  a {
+    color: #f95d99;
+    font-size: 18px;
+  }
+  p {
+    margin-top: 20px;
+  }
+}
+.blog-card {
+  height: 100%;
+  width: 100%;
+  /* border: 1px solid black; */
+  height: max-content;
+  background: white;
+
+  filter: drop-shadow(0 0 0.05rem rgb(208, 122, 122));
+}
+
+.blog-img-warp {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

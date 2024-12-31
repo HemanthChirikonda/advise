@@ -1,0 +1,26 @@
+.animation-color-blink {
+    animation-name: animation-color-blink;
+    animation-duration: 1s;
+    transition: all 0.1s ease;
+  }
+  .animation-color-blink:hover {
+    animation-play-state: running;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+  }
+  @keyframes animation-color-blink {
+    0% {
+      opacity: 0.8;
+      color: white;
+    }
+  
+    50% {
+      opacity: 1;
+      color: black;
+    }
+    100% {
+      opacity: 0.8;
+      color: white;
+    }
+  }
+  
